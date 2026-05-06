@@ -1,0 +1,292 @@
+[
+  {
+    "nombre": "Gabriel",
+    "slug": "gabriel",
+    "categoria": "Ángeles",
+    "tipo": "El ángel del Primer Himno",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/gabriel.jpg",
+    "descripcion": "Centro espiritual de la saga y testigo de los primeros secretos de la creación.",
+    "detalle": "Fue quien cantó el primer himno cuando nacieron las estrellas, y el único ángel al que el Creador le concedió el deseo imposible de vivir como humano. Su descenso abre una herida entre el Cielo, la Tierra y los antiguos reinos.",
+    "primeraAparicion": "Prólogo · El descenso",
+    "clips": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      21,
+      22
+    ]
+  },
+  {
+    "nombre": "Teles",
+    "slug": "teles",
+    "categoria": "Océano",
+    "tipo": "Sirena",
+    "estado": "Revelada",
+    "imagen": "assets/personajes/teles.jpg",
+    "descripcion": "Heredera del océano y centro de una profecía capaz de alterar el destino de los reinos.",
+    "detalle": "Su vínculo con Gabriel no es un accidente: en ella se cruzan el amor, la esperanza y un poder antiguo que muchos temen comprender.",
+    "primeraAparicion": "Capítulo II · La sirena del límite",
+    "clips": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      21,
+      23
+    ]
+  },
+  {
+    "nombre": "Haniel",
+    "slug": "haniel",
+    "categoria": "Ángeles",
+    "tipo": "Guardián de las almas",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/haniel.jpg",
+    "descripcion": "Custodio del Faro de la Noche y lector silencioso de aquello que cada ser intenta ocultar.",
+    "detalle": "Haniel no juzga por las palabras ni por los actos visibles: percibe la huella del alma cuando la luz empieza a cambiar.",
+    "primeraAparicion": "Capítulo II · El Faro de la Noche",
+    "clips": [
+      7,
+      8,
+      12,
+      14,
+      22
+    ]
+  },
+  {
+    "nombre": "Rafael",
+    "slug": "rafael",
+    "categoria": "Ángeles",
+    "tipo": "Ángel del equilibrio",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/rafael.jpg",
+    "descripcion": "Sereno, sabio y observador.",
+    "detalle": "Rafael entiende que una guerra no se gana solo con fuerza, sino con claridad, estrategia y la capacidad de sostener a sus hermanos cuando todo comienza a quebrarse.",
+    "primeraAparicion": "Línea del Cielo",
+    "clips": [
+      11,
+      13,
+      21,
+      22
+    ]
+  },
+  {
+    "nombre": "Miguel",
+    "slug": "miguel",
+    "categoria": "Ángeles",
+    "tipo": "Guerrero celestial",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/miguel.jpg",
+    "descripcion": "El brazo armado del Cielo.",
+    "detalle": "Su fe en el orden divino es absoluta, y esa convicción lo convierte tanto en protector como en amenaza cuando la duda empieza a dividir a los ángeles.",
+    "primeraAparicion": "Invocación de Zeus",
+    "clips": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "nombre": "Lucifer",
+    "slug": "lucifer",
+    "categoria": "Caídos",
+    "tipo": "Ángel caído",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/lucifer.jpg",
+    "descripcion": "Antiguo portador de luz, ahora dueño de una oscuridad calculada.",
+    "detalle": "No actúa por impulso: cada palabra, cada regalo y cada silencio forman parte de un plan más profundo.",
+    "primeraAparicion": "Clip 14 · La armadura",
+    "clips": [
+      14,
+      15,
+      18
+    ]
+  },
+  {
+    "nombre": "Atenea",
+    "slug": "atenea",
+    "categoria": "Olimpo",
+    "tipo": "Diosa de la estrategia",
+    "estado": "Revelada",
+    "imagen": "assets/personajes/atenea.jpg",
+    "descripcion": "Inteligente, precisa y difícil de anticipar.",
+    "detalle": "Atenea no necesita dominar la fuerza para cambiar una guerra: le basta comprender el tablero antes que todos los demás.",
+    "primeraAparicion": "Apéndice Atenea",
+    "clips": [
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "nombre": "Azazel",
+    "slug": "azazel",
+    "categoria": "Caídos",
+    "tipo": "El exiliado",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/azazel.jpg",
+    "descripcion": "Un antiguo celestial marcado por el orgullo, la traición y el destierro.",
+    "detalle": "Su caída no apagó su ambición: la transformó en una voluntad oscura, capaz de deformar el mundo, quebrar vidas y levantar imperios sobre el dolor.",
+    "primeraAparicion": "Apéndice Azazel",
+    "clips": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "nombre": "Zeus",
+    "slug": "zeus",
+    "categoria": "Olimpo",
+    "tipo": "Señor del Olimpo",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/zeus.jpg",
+    "descripcion": "Poderoso, calculador y codicioso.",
+    "detalle": "Zeus no gobierna solo por fuerza, sino por estrategia, oportunidad y traición. Su grandeza está hecha de victorias, pero también de silencios que otros pagaron por él.",
+    "primeraAparicion": "Mensaje al Olimpo",
+    "clips": [
+      11,
+      19
+    ]
+  },
+  {
+    "nombre": "Poseidón",
+    "slug": "poseidon",
+    "categoria": "Océano",
+    "tipo": "Dios del mar",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/poseidon.jpg",
+    "descripcion": "Soberano implacable de las profundidades.",
+    "detalle": "Su dominio nace del control, el miedo y la posesión. Puede encerrar una reina, someter a su hija y humillar a un padre sin quebrar la voz; si el mundo se interpone, está dispuesto a hundirlo.",
+    "primeraAparicion": "Capítulo III · El reclamo del mar",
+    "clips": [
+      9,
+      11,
+      23
+    ]
+  },
+  {
+    "nombre": "Madre de Teles",
+    "slug": "madre-teles",
+    "categoria": "Océano",
+    "tipo": "Reina del océano",
+    "estado": "Revelada",
+    "imagen": "assets/personajes/madre-teles.jpg",
+    "descripcion": "Una presencia noble y trágica, unida al linaje más profundo del mar.",
+    "detalle": "Su amor por el padre de Teles encendió una historia que jamás debió ser descubierta, y su amor por su hija la convirtió en símbolo de dignidad frente a una condena imposible.",
+    "primeraAparicion": "Profecía de la esfera",
+    "clips": [
+      21
+    ]
+  },
+  {
+    "nombre": "Padre de Teles",
+    "slug": "padre-teles",
+    "categoria": "Océano",
+    "tipo": "Guardián del linaje marino",
+    "estado": "Revelado",
+    "imagen": "assets/personajes/padre-teles.jpg",
+    "descripcion": "Figura solemne, resistente y digna de admiración.",
+    "detalle": "Soportó la pérdida, la humillación y el peso de una verdad demasiado grande, pero jamás dejó de sostener aquello que más amaba: su esposa y su hija.",
+    "primeraAparicion": "Capítulo IV · Regreso al océano",
+    "clips": [
+      23
+    ]
+  },
+  {
+    "nombre": "Eva",
+    "slug": "eva",
+    "categoria": "Humanidad",
+    "tipo": "Primera mujer",
+    "estado": "Revelada",
+    "imagen": "assets/personajes/eva.jpg",
+    "descripcion": "Figura originaria de la humanidad.",
+    "detalle": "Su bondad y su amor por su linaje la vuelven vulnerable ante una traición que cambiará el destino de la Tierra. En ella, la inocencia de la creación queda atrapada frente a una oscuridad que todavía no revela su verdadero rostro.",
+    "primeraAparicion": "A desarrollar",
+    "clips": []
+  },
+  {
+    "nombre": "Hades",
+    "slug": "hades",
+    "categoria": "Olimpo",
+    "tipo": "?",
+    "estado": "?",
+    "bloqueado": true,
+    "descripcion": "?",
+    "detalle": "?",
+    "primeraAparicion": "?",
+    "clips": []
+  },
+  {
+    "nombre": "Afrodita",
+    "slug": "afrodita",
+    "categoria": "Olimpo",
+    "tipo": "?",
+    "estado": "?",
+    "bloqueado": true,
+    "descripcion": "?",
+    "detalle": "?",
+    "primeraAparicion": "?",
+    "clips": []
+  },
+  {
+    "nombre": "Hefesto",
+    "slug": "hefesto",
+    "categoria": "Olimpo",
+    "tipo": "?",
+    "estado": "?",
+    "bloqueado": true,
+    "descripcion": "?",
+    "detalle": "?",
+    "primeraAparicion": "?",
+    "clips": []
+  },
+  {
+    "nombre": "Apolo",
+    "slug": "apolo",
+    "categoria": "Olimpo",
+    "tipo": "?",
+    "estado": "?",
+    "bloqueado": true,
+    "descripcion": "?",
+    "detalle": "?",
+    "primeraAparicion": "?",
+    "clips": []
+  },
+  {
+    "nombre": "Ángeles de Plata",
+    "slug": "angeles-plata",
+    "categoria": "Ángeles",
+    "tipo": "?",
+    "estado": "?",
+    "bloqueado": true,
+    "descripcion": "?",
+    "detalle": "?",
+    "primeraAparicion": "?",
+    "clips": []
+  },
+  {
+    "nombre": "Tritones",
+    "slug": "tritones",
+    "categoria": "Océano",
+    "tipo": "?",
+    "estado": "?",
+    "bloqueado": true,
+    "descripcion": "?",
+    "detalle": "?",
+    "primeraAparicion": "?",
+    "clips": []
+  }
+]

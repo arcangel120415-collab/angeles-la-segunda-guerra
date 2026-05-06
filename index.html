@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ángeles: La Segunda Guerra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=UnifrakturCook:wght@700&family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true">
+    <div class="blink-layer"></div>
+    <div class="deep-vignette"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-main">Ángeles</span>
+      <span class="brand-sub">La Segunda Guerra</span>
+      <span class="brand-line">Alas Grises · La deshonra de un mito</span>
+    </a>
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#historia">Historia</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#personajes">Personajes</a>
+      <a href="#universo">Universo</a>
+      <a href="#historieta">Historieta</a>
+      <a href="#libro">Libro</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Universo literario cinematográfico</p>
+        <img class="hero-logo" src="assets/logo-titulo.png" alt="Ángeles: La Segunda Guerra · Alas Grises · La deshonra de un mito" />
+        <p class="lead">Hubo cosas que el Cielo decidió no escribir.<br>Cosas que debían ser olvidadas.</p>
+        <p class="intro">El comienzo del libro, los apéndices visuales, los personajes y los videos conectados dentro de un mismo universo.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#historia">Leer historia</a>
+          <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://youtube.com/playlist?list=PLY_bLJufZa1Ja41kDy6Z607IzbuazL4xi&si=_HKSNCge-A-qhTwJ">Ver playlist</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="opening-trailer shell" aria-label="Video de apertura del universo">
+      <div class="opening-copy">
+        <p class="section-kicker">Video de apertura</p>
+        <h2>Umbral del universo</h2>
+        <p>Antes de entrar en la historia, este clip abre la puerta al tono, la escala y el misterio de <strong>Ángeles: La Segunda Guerra</strong>.</p>
+      </div>
+      <a class="opening-thumb" style="background-image:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.62)),url('https://i.ytimg.com/vi/XJsdoe7ye70/maxresdefault.jpg')" data-video="https://www.youtube.com/watch?v=XJsdoe7ye70" aria-label="Reproducir video de apertura">
+        <span class="inline-video-play">▶</span>
+      </a>
+    </section>
+
+    <section class="portal-grid" aria-label="Accesos principales">
+      <a class="portal-card" href="#historia"><span class="icon">☥</span><h3>Historia</h3><p>Comienzo del libro con lectura y escenas enlazadas.</p></a>
+      <a class="portal-card" href="#videos"><span class="icon">▶</span><h3>Vídeos</h3><p>Clips conectados con la lectura.</p></a>
+      <a class="portal-card" href="#personajes"><span class="icon">𓆃</span><h3>Personajes</h3><p>Ángeles, dioses y seres del océano.</p></a>
+      <a class="portal-card" href="#universo"><span class="icon">✦</span><h3>Universo</h3><p>Lugares, facciones, objetos y mitología.</p></a>
+      <a class="portal-card" href="#historieta"><span class="icon">▤</span><h3>Historieta</h3><p>Lector preparado para páginas ilustradas.</p></a>
+      <a class="portal-card" href="#libro"><span class="icon">▣</span><h3>Libro</h3><p>Acceso al libro completo en Google Play.</p></a>
+    </section>
+
+    <section id="historia" class="section shell">
+      <p class="section-kicker">Historia</p>
+      <h2>Comienzo del libro</h2>
+      <p class="section-lead">Lectura literal y apéndices cinematográficos del comienzo del libro, organizados en orden narrativo. Cada escena incluye su miniatura para abrir el clip correspondiente.</p>
+      <div id="escenas" class="scene-list"></div>
+    </section>
+
+    <section id="videos" class="section shell">
+      <p class="section-kicker">Vídeos del universo</p>
+      <h2>Clips conectados con la lectura</h2>
+      <p class="section-lead">Galería de clips del universo. Cada video permite volver al fragmento del libro donde se ubica esa escena.</p>
+      <div id="videoGrid" class="video-grid"></div>
+    </section>
+
+    <section id="personajes" class="section shell">
+      <p class="section-kicker">Archivo de personajes</p>
+      <h2>Archivo visual de personajes</h2>
+      <p class="section-lead">Tarjetas individuales con imagen épica, rol, estado narrativo y ficha ampliada. Los personajes aún no revelados quedan bloqueados como sombra.</p>
+      <div id="personajesGrid" class="character-grid"></div>
+    </section>
+
+    <section id="universo" class="section shell universe-card">
+      <p class="section-kicker">Mitología</p>
+      <h2>Cielo · Océano · Averno</h2>
+      <p>Un universo donde los ángeles no olvidan, los Iluminados sostienen reinos antiguos y el océano guarda secretos capaces de quebrar el orden de la creación.</p>
+    </section>
+
+
+    <section id="historieta" class="section shell comic-card">
+      <p class="section-kicker">Historieta</p>
+      <h2>Lector de historieta</h2>
+      <p>Esta sección queda preparada para cargar las páginas de la historieta cuando estén terminadas.</p>
+      <div class="comic-reader-placeholder">
+        <div class="comic-empty-page">Próximamente<br><span>Páginas ilustradas del universo Ángeles</span></div>
+        <div class="comic-controls">
+          <button class="btn btn-ghost" disabled>Anterior</button>
+          <button class="btn btn-ghost" disabled>Siguiente</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="libro" class="section shell book-card">
+      <p class="section-kicker">Libro completo</p>
+      <h2>Continúa la historia</h2>
+      <p>Lee el libro en Google Play Libros y sigue el universo expandido en YouTube.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="https://play.google.com/store/books/details?id=jNu8EQAAQBAJ&pli=1">Ver en Google Play</a>
+        <a class="btn btn-ghost" target="_blank" rel="noopener" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR">Canal de YouTube</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="videoModal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="Cerrar video">×</button>
+      <div id="modalVideo" class="video-frame"></div>
+    </div>
+  </div>
+
+  <footer class="footer">© 2026 Cristian Darío Aguilar · Todos los derechos reservados.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
