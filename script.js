@@ -31,8 +31,8 @@ const FALLBACK_ESCENAS = [
     "capitulo": "Prólogo",
     "descripcion": "Gabriel recibe el deseo de vivir como humano, aparece en la Tierra y siente por primera vez el peso de un cuerpo.",
     "texto": "El Cielo concede el deseo. Gabriel deja de observar la vida desde lejos y despierta dentro de un cuerpo mortal.",
-    "video": "https://www.youtube.com/watch?v=WqvF1_7-ecA",
-    "thumbnail": "https://i.ytimg.com/vi/WqvF1_7-ecA/maxresdefault.jpg",
+    "video": "https://youtube.com/shorts/SAajR1GTr_Q",
+    "thumbnail": "https://i.ytimg.com/vi/SAajR1GTr_Q/maxresdefault.jpg",
     "personajes": [
       "Gabriel"
     ],
@@ -1325,6 +1325,7 @@ function youtubeInfo(url){
     let id = '';
     if(u.hostname.includes('youtu.be')) id = u.pathname.slice(1);
     if(u.searchParams.get('v')) id = u.searchParams.get('v');
+    if(u.pathname.includes('/shorts/')) id = u.pathname.split('/shorts/')[1].split(/[?&/]/)[0];
     if(u.pathname.includes('/embed/')) id = u.pathname.split('/embed/')[1].split(/[?&]/)[0];
     id = (id || '').split(/[?&]/)[0];
     return { id, watch: id ? `https://www.youtube.com/watch?v=${id}` : url, embed: id ? `https://www.youtube-nocookie.com/embed/${id}` : url };
