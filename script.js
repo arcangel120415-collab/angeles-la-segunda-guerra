@@ -1530,3 +1530,115 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+// Feedback flotante y fragmento extendido - Ángeles
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.querySelector("[data-feedback-toggle]");
+  const readerPanel = document.getElementById("readerPanel");
+  const feedbackModal = document.getElementById("feedbackModal");
+  const feedbackTitle = document.getElementById("feedbackTitle");
+  const feedbackBody = document.getElementById("feedbackBody");
+
+  const track = function (eventName) {
+    if (typeof gtag === "function") {
+      gtag("event", eventName, {
+        event_category: "interaccion_lectores",
+        event_label: "historia"
+      });
+    }
+  };
+
+  if (toggle && readerPanel) {
+    toggle.addEventListener("click", function () {
+      readerPanel.hidden = !readerPanel.hidden;
+    });
+  }
+
+  function openFeedback(title, bodyHtml) {
+    if (!feedbackModal || !feedbackTitle || !feedbackBody) return;
+    feedbackTitle.textContent = title;
+    feedbackBody.innerHTML = bodyHtml;
+    feedbackModal.hidden = false;
+    if (readerPanel) readerPanel.hidden = true;
+  }
+
+  document.addEventListener("click", function (event) {
+    const closeBtn = event.target.closest("[data-feedback-close]");
+    if (closeBtn && feedbackModal) {
+      feedbackModal.hidden = true;
+    }
+
+    const choice = event.target.closest("[data-feedback-choice]");
+    if (!choice) return;
+
+    const value = choice.dataset.feedbackChoice;
+
+    if (value === "like") {
+      track("like_historia");
+      openFeedback(
+        "Dejá una señal",
+        `
+          <p>Elegí una frase del comienzo del libro que te haya quedado resonando y dejala <strong>entre comillas</strong> en cualquier video del canal.</p>
+          <p>No expliques nada más. Solo la frase.</p>
+          <p>Quien no haya cruzado el umbral no sabrá qué significa.</p>
+          <div class="modal-actions">
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR">Ir al canal</a>
+            <a class="btn btn-ghost" href="#fragmento-extendido" data-feedback-close>Ingresar palabra</a>
+          </div>
+        `
+      );
+    }
+
+    if (value === "dislike") {
+      track("dislike_historia");
+      openFeedback(
+        "Gracias por cruzar el umbral",
+        `
+          <p>Tal vez la historia te encuentre más adelante.</p>
+        `
+      );
+    }
+
+    if (value === "suggestion") {
+      track("click_sugerencia");
+      openFeedback(
+        "Mensaje para el autor",
+        `
+          <p>Si una duda, teoría o sugerencia apareció mientras leías, podés dejar una señal en el canal.</p>
+          <p>También podés elegir una frase del libro y dejarla <strong>entre comillas</strong> en cualquier video.</p>
+          <p class="modal-note">Una señal pierde fuerza cuando se explica.</p>
+          <div class="modal-actions">
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR">Ir al canal</a>
+            <a class="btn btn-ghost" href="#fragmento-extendido" data-feedback-close>Ingresar palabra</a>
+          </div>
+        `
+      );
+    }
+  });
+
+  const unlockButton = document.querySelector("[data-unlock]");
+  const accessInput = document.getElementById("accessCodeInput");
+  const unlockResult = document.getElementById("unlockResult");
+
+  if (unlockButton && accessInput && unlockResult) {
+    unlockButton.addEventListener("click", function () {
+      const code = accessInput.value.trim().toUpperCase();
+
+      track("unlock_attempt");
+
+      if (code === "PRIMERHIMNO") {
+        track("unlock_success");
+        unlockResult.hidden = false;
+        unlockResult.innerHTML = `
+          <h3>La puerta se abrió</h3>
+          <p>El fragmento extendido todavía está siendo preparado. Cuando la palabra vuelva a resonar, aquí aparecerán los párrafos ocultos del universo.</p>
+        `;
+      } else {
+        unlockResult.hidden = false;
+        unlockResult.innerHTML = `
+          <h3>La palabra no respondió</h3>
+          <p>Revisá la palabra de acceso o esperá la próxima señal.</p>
+        `;
+      }
+    });
+  }
+});
