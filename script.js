@@ -1626,19 +1626,119 @@ document.addEventListener("DOMContentLoaded", function () {
       track("unlock_attempt");
 
       if (code === "PRIMERHIMNO") {
-        track("unlock_success");
-        unlockResult.hidden = false;
-        unlockResult.innerHTML = `
-          <h3>La puerta se abrió</h3>
-          <p>El fragmento extendido todavía está siendo preparado. Cuando la palabra vuelva a resonar, aquí aparecerán los párrafos ocultos del universo.</p>
-        `;
-      } else {
-        unlockResult.hidden = false;
-        unlockResult.innerHTML = `
-          <h3>La palabra no respondió</h3>
-          <p>Revisá la palabra de acceso o esperá la próxima señal.</p>
-        `;
-      }
+  track("unlock_success");
+  unlockResult.hidden = false;
+  unlockResult.innerHTML = `
+    <h3>La puerta se abrió</h3>
+    <p class="extended-note">Fragmento extendido perteneciente a una parte posterior de la historia.</p>
+
+    <div class="extended-fragment">
+      <p>Seguíamos al delfín.</p>
+      <p>Nadaba delante de nosotros, pero cada tanto sacudía la cabeza y giraba para mirarnos, con una expresión extraña, inquieta. El océano estaba demasiado calmo, como si hubiera olvidado respirar. No había corrientes ni vida visible. Era un estanque inmenso, silencioso.</p>
+      <p>De pronto, el delfín se detuvo.</p>
+      <p>Giró con brusquedad e intentó morderme.</p>
+      <p>Retrocedí instintivamente. No quería lastimarlo.</p>
+      <p>Haniel reaccionó antes. Extendió una mano y liberó apenas una fracción de su luz. No fue un ataque. Fue una orden.</p>
+      <p>El delfín se aquietó de inmediato. Sus ojos recuperaron claridad y volvió a nadar como si nada hubiera ocurrido.</p>
+      <p>Nos miramos.</p>
+      <p>—Esto no es normal —murmuré.</p>
+      <p>—No —respondió Haniel—. Pero no tenemos tiempo.</p>
+
+      <p>Entonces la luz desapareció.</p>
+      <p>No fue una sombra.</p>
+      <p>Fue ausencia.</p>
+
+      <p>Encendí la espada de Ares. El fuego abrió un sendero en la negrura. Haniel aumentó su aura y, poco a poco, el entorno comenzó a revelarse.</p>
+      <p>Lo que vimos nos detuvo la respiración.</p>
+      <p>Miles. No… millones.</p>
+      <p>Bestias marinas, tritones armados, criaturas deformadas por siglos de dominio ajeno avanzaban desde todas direcciones. Un ejército completo cerrándose sobre nosotros.</p>
+
+      <p>Puse una mano sobre el lomo del delfín.</p>
+      <p>—Escóndete.</p>
+      <p>No sé cómo, pero me entendió. Removió el polvo del fondo oceánico y desapareció entre la arena.</p>
+
+      <p>No había marcha atrás.</p>
+      <p>La guerra comenzaba allí.</p>
+
+      <p>Las criaturas se acercaron demasiado rápido.</p>
+      <p>Pero cometieron un error.</p>
+      <p>No sabían que se enfrentaban a dos hermanos que habían luchado juntos desde el inicio de los tiempos.</p>
+
+      <p>Los ojos de Haniel, capaces de ver las almas, le otorgaban una precisión absoluta bajo el agua.</p>
+      <p>Arrojé el escudo hacia lo alto.</p>
+      <p>Haniel lanzó su lanza con toda su fuerza.</p>
+      <p>El impacto contra el escudo detonó una luz cegadora que iluminó kilómetros de océano. Las criaturas del abismo, acostumbradas a la oscuridad eterna, quedaron desorientadas.</p>
+
+      <p>Aproveché.</p>
+      <p>La espada de Ares se encendió por completo. Giré sobre mí mismo y el fuego trazó un vórtice imposible bajo el océano.</p>
+
+      <p>Entonces ocurrió algo que jamás había visto.</p>
+      <p>El agua retrocedió.</p>
+      <p>No fue evaporación.</p>
+      <p>Fue rechazo.</p>
+
+      <p>Allí donde la lanza de Haniel había golpeado el escudo y la luz aún vibraba suspendida, el fuego de la espada terminó de sellar el efecto. Se abrió un pasillo en el océano: una franja imposible donde el agua no lograba penetrar.</p>
+      <p>Un corredor vacío, sostenido por la resonancia de la luz angelical y la furia de Ares.</p>
+
+      <p>Caminamos dentro de él.</p>
+      <p>A nuestro alrededor, el océano rugía, detenido por una fuerza que ya no obedecía a la física, sino al recuerdo del poder que acababa de ser liberado.</p>
+
+      <p>Cientos de cuerpos cayeron seccionados.</p>
+      <p>—La primera horda está acabada —dije.</p>
+      <p>Haniel me devolvió la mirada y sonrió apenas.</p>
+
+      <p>Avanzamos.</p>
+      <p>Para aquellas criaturas no éramos competencia.</p>
+      <p>Éramos sentencia.</p>
+
+      <p>Entonces Haniel cayó de rodillas.</p>
+      <p>Se llevó ambas manos a la cabeza. Las lágrimas brotaron sin control.</p>
+      <p>—Perdón, Padre… —susurró—. ¿Qué he hecho? No…</p>
+      <p>Alzó el rostro, desesperado.</p>
+      <p>—¡Son inocentes!</p>
+
+      <p>Entendí.</p>
+      <p>Los ángeles somos luz pura. No juzgamos. No ejecutamos.</p>
+      <p>Matar almas sin juicio las condena… y nos condena con ellas.</p>
+
+      <p>Sus lamentos lo rodeaban.</p>
+      <p>Yo no sentía nada.</p>
+      <p>Mi luz estaba cerrada.</p>
+
+      <p>La siguiente horda llegó antes de que pudiera reaccionar.</p>
+      <p>Combatí solo.</p>
+      <p>La espada de Ares respondió como había sido forjada para hacerlo. Animales y tritones caían por cientos. Las armaduras ralentizaban el avance, pero no lo detenían.</p>
+
+      <p>Haniel seguía arrodillado.</p>
+      <p>Entonces gritó.</p>
+      <p>Abrió los brazos y liberó una luz distinta. No destructiva. Liberadora.</p>
+
+      <p>Las bestias se detuvieron.</p>
+      <p>Una a una retrocedieron. Los tritones se reagruparon y huyeron hacia las profundidades.</p>
+
+      <p>Haniel cayó de nuevo, esta vez sobre una rodilla.</p>
+      <p>—¿Te encuentras bien? —pregunté.</p>
+      <p>—Sí —respondió, exhausto—. Desde la Primera Guerra no liberaba tanto poder.</p>
+      <p>Alzó la mirada.</p>
+      <p>—En mi retorno al cielo, me encargaré de sus reencarnaciones en persona.</p>
+
+      <p>El delfín emergió y retomó la guía.</p>
+
+      <hr>
+
+      <p>En el castillo, Poseidón se tambaleó.</p>
+      <p>Soltó el tridente y cayó de rodillas.</p>
+      <p>—Algo anda mal… —gruñó—. He perdido la conexión con miles de criaturas.</p>
+      <p>Se incorporó con furia.</p>
+      <p>Clavó el tridente contra el suelo.</p>
+      <p>La vibración no fue sonora.</p>
+      <p>Fue conceptual.</p>
+      <p>—Hades… —dijo con voz grave—. Yo te invoco.</p>
+
+      <p>La oscuridad respondió.</p>
+    </div>
+  `;
+}
     });
   }
 });
