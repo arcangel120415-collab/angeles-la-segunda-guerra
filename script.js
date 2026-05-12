@@ -1464,3 +1464,69 @@ async function init(){
   personajesRoot.innerHTML = personajes.map(personajeCard).join('');
 }
 init().catch(err => console.error(err));
+// Feedback flotante - Ángeles
+document.addEventListener("DOMContentLoaded", function () {
+  const widget = document.querySelector(".feedback-widget");
+  const panel = document.querySelector(".feedback-panel");
+  const toggle = document.querySelector(".feedback-toggle");
+
+  if (!widget || !panel || !toggle) return;
+
+  toggle.addEventListener("click", function () {
+    widget.classList.toggle("open");
+  });
+
+  const track = function (eventName) {
+    if (typeof gtag === "function") {
+      gtag("event", eventName, {
+        event_category: "interaccion_lectores",
+        event_label: "historia"
+      });
+    }
+  };
+
+  const likeBtn = document.querySelector("[data-feedback='like']");
+  const dislikeBtn = document.querySelector("[data-feedback='dislike']");
+  const suggestionBtn = document.querySelector("[data-feedback='suggestion']");
+
+  if (likeBtn) {
+    likeBtn.addEventListener("click", function () {
+      track("like_historia");
+      panel.innerHTML = `
+        <h3>Dejá una señal</h3>
+        <p>Elegí una frase del comienzo del libro que te haya quedado resonando y dejala <strong>entre comillas</strong> en cualquier video del canal.</p>
+        <p>No expliques nada más. Solo la frase.</p>
+        <p>Quien no haya cruzado el umbral no sabrá qué significa.</p>
+        <div class="feedback-actions">
+          <a class="btn btn-primary" target="_blank" rel="noopener" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR">Ir al canal</a>
+          <a class="btn btn-ghost" href="#fragmento-extendido">Ingresar palabra</a>
+        </div>
+      `;
+    });
+  }
+
+  if (dislikeBtn) {
+    dislikeBtn.addEventListener("click", function () {
+      track("dislike_historia");
+      panel.innerHTML = `
+        <h3>Gracias por cruzar el umbral</h3>
+        <p>Tal vez la historia te encuentre más adelante.</p>
+      `;
+    });
+  }
+
+  if (suggestionBtn) {
+    suggestionBtn.addEventListener("click", function () {
+      track("click_sugerencia");
+      panel.innerHTML = `
+        <h3>Mensaje para el autor</h3>
+        <p>Si una duda, teoría o sugerencia apareció mientras leías, podés dejar una señal en el canal.</p>
+        <p>También podés elegir una frase del libro y dejarla <strong>entre comillas</strong> en cualquier video.</p>
+        <div class="feedback-actions">
+          <a class="btn btn-primary" target="_blank" rel="noopener" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR">Ir al canal</a>
+          <a class="btn btn-ghost" href="#fragmento-extendido">Ingresar palabra</a>
+        </div>
+      `;
+    });
+  }
+});
