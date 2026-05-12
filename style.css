@@ -194,3 +194,24 @@ body{
 .modal-note{color:#f6d98c;font-style:italic;}
 .modal-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px;}
 @media (max-width:620px){.reader-widget{right:12px;bottom:12px}.reader-toggle{font-size:12px;padding:11px 13px}.reader-panel{width:220px}.feedback-panel{padding:22px}.unlock-box{display:block}.unlock-box input{width:100%;margin-bottom:10px}}
+.extended-note {
+  color: rgba(224, 204, 148, .85);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.extended-fragment {
+  max-width: 900px;
+  line-height: 1.75;
+  font-size: 1.08rem;
+}
+
+.extended-fragment p {
+  margin: 0 0 1rem;
+}
+
+.extended-fragment hr {
+  border: 0;
+  border-top: 1px solid rgba(224, 204, 148, .35);
+  margin: 2rem 0;
+}
