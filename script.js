@@ -108,7 +108,7 @@ const FALLBACK_ESCENAS = [
     "capitulo": "Capítulo I",
     "descripcion": "El mundo se vuelve hostil mientras Gabriel corre tras una melodía imposible: escollera, bosque, rayo, árbol y salto al mar.",
     "texto": "La melodía llama a Gabriel desde el otro lado. El viento, el mar y el bosque parecen intentar detenerlo.",
-    "video": "https://youtube.com/shorts/2A_6HOCSlJw",
+    "video": "https://youtube.com/shorts/2A_6HOCSlJw?si=0ShRvmUX2LayKLSx",
     "thumbnail": "https://i.ytimg.com/vi/2A_6HOCSlJw/maxresdefault.jpg",
     "personajes": [
       "Gabriel"
@@ -151,8 +151,8 @@ const FALLBACK_ESCENAS = [
     "capitulo": "Capítulo I",
     "descripcion": "Bajo el agua, Gabriel lucha contra el océano, queda herido por la madera y logra salir hasta ver a Teles a lo lejos.",
     "texto": "El mar lo arrastra, la madera lo hiere y el árbol termina salvándolo. Al despertar, la silueta sigue allí.",
-    "video": "https://www.youtube.com/watch?v=g0GOPcffJTQ",
-    "thumbnail": "https://i.ytimg.com/vi/g0GOPcffJTQ/maxresdefault.jpg",
+    "video": "https://youtube.com/shorts/qX3tTGiAYiM?feature=share",
+    "thumbnail": "https://i.ytimg.com/vi/qX3tTGiAYiM/maxresdefault.jpg",
     "personajes": [
       "Gabriel",
       "Teles"

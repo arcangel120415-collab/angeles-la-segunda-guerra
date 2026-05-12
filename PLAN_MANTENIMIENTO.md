@@ -20,3 +20,8 @@ La historieta debe vivir en `assets/historieta/` y en un futuro archivo de datos
 
 ## Publicación
 Primero se publica una versión estable. Luego cada cambio debe salir como versión nueva: v21, v22, v23, etc.
+
+
+## Feedback de lectores
+
+El widget flotante registra interacciones simples en Google Analytics: like_historia, dislike_historia, click_sugerencia, click_youtube_canal, unlock_attempt y unlock_success. Para cambiar la palabra semanal, editar ACCESS_CODE en script.js.

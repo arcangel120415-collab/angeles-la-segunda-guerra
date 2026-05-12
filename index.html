@@ -81,6 +81,30 @@
       <div id="escenas" class="scene-list"></div>
     </section>
 
+
+    <section class="section shell signal-card" id="senal-lectores">
+      <p class="section-kicker">Señal de lectores</p>
+      <h2>¿Querés leer un fragmento extendido?</h2>
+      <p>Elegí una frase del comienzo del libro que te haya quedado resonando y dejala <strong>entre comillas</strong> en cualquier video del canal.</p>
+      <p>No expliques nada más. Solo la frase. Quien no haya cruzado el umbral no sabrá qué significa.</p>
+      <p>Cada cierto tiempo se libera una palabra de acceso para leer unos párrafos más del universo.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR">Ir al canal</a>
+        <a class="btn btn-ghost" href="#fragmento-extendido">Ingresar palabra</a>
+      </div>
+    </section>
+
+    <section class="section shell extended-card" id="fragmento-extendido">
+      <p class="section-kicker">Fragmento extendido</p>
+      <h2>La puerta de la palabra</h2>
+      <p>Ingresá la palabra de acceso semanal para abrir el contenido extendido cuando esté disponible.</p>
+      <div class="unlock-box">
+        <input id="accessCodeInput" type="text" placeholder="Palabra de acceso" aria-label="Palabra de acceso" />
+        <button class="btn btn-primary" data-unlock>Desbloquear</button>
+      </div>
+      <div id="unlockResult" class="unlock-result" hidden></div>
+    </section>
+
     <section id="videos" class="section shell">
       <p class="section-kicker">Vídeos del universo</p>
       <h2>Clips conectados con la lectura</h2>
@@ -125,6 +149,25 @@
       </div>
     </section>
   </main>
+
+
+  <div class="reader-widget" aria-live="polite">
+    <button class="reader-toggle" data-feedback-toggle>¿Te gusta la historia?</button>
+    <div id="readerPanel" class="reader-panel" hidden>
+      <button data-feedback-choice="like">👍 Sí</button>
+      <button data-feedback-choice="dislike">👎 Todavía no</button>
+      <button data-feedback-choice="suggestion">💬 Sugerencia</button>
+    </div>
+  </div>
+
+  <div id="feedbackModal" class="feedback-modal" hidden>
+    <div class="feedback-backdrop" data-feedback-close></div>
+    <div class="feedback-panel">
+      <button class="modal-close" data-feedback-close aria-label="Cerrar">×</button>
+      <h2 id="feedbackTitle"></h2>
+      <div id="feedbackBody"></div>
+    </div>
+  </div>
 
   <div id="videoModal" class="modal" hidden>
     <div class="modal-backdrop" data-close></div>
