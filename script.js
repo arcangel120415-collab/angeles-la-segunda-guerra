@@ -1742,3 +1742,117 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+// v28 - Lector emergente de historieta
+(function () {
+  const comicPages = [
+    { title: "Portada", src: "assets/historieta/portada.jpg", alt: "Portada de la historieta Ángeles: La Segunda Guerra - El deseo prohibido" },
+    ...Array.from({ length: 19 }, (_, i) => {
+      const n = String(i + 1).padStart(2, "0");
+      return {
+        title: `Página ${i + 1}`,
+        src: `assets/historieta/pag${n}.jpg`,
+        alt: `Página ${i + 1} de la historieta Ángeles: La Segunda Guerra`
+      };
+    })
+  ];
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById("comicModal");
+    const image = document.getElementById("comicModalImage");
+    const title = document.getElementById("comicModalTitle");
+    const counter = document.getElementById("comicCounter");
+    const stage = modal ? modal.querySelector(".comic-modal-panel") : null;
+    let currentIndex = 0;
+
+    if (!modal || !image || !title || !counter) return;
+
+    function trackComic(eventName, label) {
+      if (typeof gtag === "function") {
+        gtag("event", eventName, {
+          event_category: "historieta",
+          event_label: label || comicPages[currentIndex].title
+        });
+      }
+    }
+
+    function renderPage() {
+      const page = comicPages[currentIndex];
+      image.src = page.src;
+      image.alt = page.alt;
+      title.textContent = page.title === "Portada" ? "El deseo prohibido" : page.title;
+      counter.textContent = page.title === "Portada" ? "Portada" : `${page.title} de 19`;
+
+      modal.querySelectorAll("[data-comic-prev]").forEach((btn) => {
+        btn.disabled = currentIndex === 0;
+      });
+      modal.querySelectorAll("[data-comic-next]").forEach((btn) => {
+        btn.disabled = currentIndex === comicPages.length - 1;
+      });
+    }
+
+    function openComic(index) {
+      currentIndex = Math.max(0, Math.min(Number(index) || 0, comicPages.length - 1));
+      renderPage();
+      modal.hidden = false;
+      document.body.classList.add("comic-open");
+      trackComic("open_historieta", comicPages[currentIndex].title);
+    }
+
+    function closeComic() {
+      modal.hidden = true;
+      document.body.classList.remove("comic-open");
+      trackComic("close_historieta", comicPages[currentIndex].title);
+    }
+
+    function nextPage() {
+      if (currentIndex < comicPages.length - 1) {
+        currentIndex += 1;
+        renderPage();
+        trackComic("comic_next", comicPages[currentIndex].title);
+      }
+    }
+
+    function prevPage() {
+      if (currentIndex > 0) {
+        currentIndex -= 1;
+        renderPage();
+        trackComic("comic_prev", comicPages[currentIndex].title);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      const openBtn = event.target.closest("[data-comic-open]");
+      if (openBtn) {
+        openComic(openBtn.dataset.comicOpen);
+        return;
+      }
+      if (event.target.closest("[data-comic-close]")) {
+        closeComic();
+        return;
+      }
+      if (event.target.closest("[data-comic-next]")) {
+        nextPage();
+        return;
+      }
+      if (event.target.closest("[data-comic-prev]")) {
+        prevPage();
+        return;
+      }
+      if (event.target.closest("[data-comic-fullscreen]") && stage) {
+        if (!document.fullscreenElement && stage.requestFullscreen) {
+          stage.requestFullscreen();
+        } else if (document.exitFullscreen) {
+          document.exitFullscreen();
+        }
+      }
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (modal.hidden) return;
+      if (event.key === "Escape") closeComic();
+      if (event.key === "ArrowRight") nextPage();
+      if (event.key === "ArrowLeft") prevPage();
+    });
+  });
+})();

@@ -126,76 +126,30 @@
     </section>
 
 
-    <section id="historieta" class="section shell comic-card">
+    <section id="historieta" class="section shell comic-card comic-showcase">
       <p class="section-kicker">Historieta</p>
       <h2>El deseo prohibido</h2>
-      <p class="section-lead">Primera tanda de páginas ilustradas del universo <strong>Ángeles: La Segunda Guerra</strong>. Esta sección seguirá creciendo a medida que se agreguen nuevas páginas.</p>
-      <div class="comic-reader">
-        <figure class="comic-page comic-cover">
+      <p class="section-lead">Primera tanda de páginas ilustradas del universo <strong>Ángeles: La Segunda Guerra</strong>. Abrí el lector para recorrer las páginas como diapositivas, con navegación y vista ampliada.</p>
+
+      <div class="comic-preview-grid">
+        <button class="comic-cover-button" type="button" data-comic-open="0" aria-label="Abrir portada de la historieta">
           <img src="assets/historieta/portada.jpg" alt="Portada de la historieta Ángeles: La Segunda Guerra - El deseo prohibido" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag01.jpg" alt="Página 01 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag02.jpg" alt="Página 02 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag03.jpg" alt="Página 03 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag04.jpg" alt="Página 04 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag05.jpg" alt="Página 05 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag06.jpg" alt="Página 06 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag07.jpg" alt="Página 07 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag08.jpg" alt="Página 08 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag09.jpg" alt="Página 09 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag10.jpg" alt="Página 10 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag11.jpg" alt="Página 11 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag12.jpg" alt="Página 12 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag13.jpg" alt="Página 13 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag14.jpg" alt="Página 14 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag15.jpg" alt="Página 15 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag16.jpg" alt="Página 16 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag17.jpg" alt="Página 17 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag18.jpg" alt="Página 18 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <figure class="comic-page">
-          <img src="assets/historieta/pag19.jpg" alt="Página 19 de la historieta Ángeles: La Segunda Guerra" loading="lazy" />
-        </figure>
-        <div class="comic-continue">
-          <p class="section-kicker">Continuará</p>
-          <h3>La historia continúa...</h3>
-          <p>Nuevas páginas serán agregadas en próximas tandas.</p>
+        </button>
+        <div class="comic-preview-copy">
+          <p class="section-kicker">Lector visual</p>
+          <h3>19 páginas disponibles</h3>
+          <p>La historieta se abre en un visor emergente para que puedas avanzar página por página sin perderte dentro de la web.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="button" data-comic-open="0">Abrir historieta</button>
+            <button class="btn btn-ghost" type="button" data-comic-open="1">Ir a página 1</button>
+          </div>
         </div>
+      </div>
+
+      <div class="comic-continue comic-continue-inline">
+        <p class="section-kicker">Continuará</p>
+        <h3>La historia continúa...</h3>
+        <p>Nuevas páginas serán agregadas en próximas tandas.</p>
       </div>
     </section>
 
@@ -226,6 +180,33 @@
       <button class="modal-close" data-feedback-close aria-label="Cerrar">×</button>
       <h2 id="feedbackTitle"></h2>
       <div id="feedbackBody"></div>
+    </div>
+  </div>
+
+  <div id="comicModal" class="comic-modal" hidden aria-label="Lector de historieta">
+    <div class="comic-modal-backdrop" data-comic-close></div>
+    <div class="comic-modal-panel">
+      <div class="comic-modal-topbar">
+        <div>
+          <p class="section-kicker">Historieta</p>
+          <strong id="comicModalTitle">El deseo prohibido</strong>
+        </div>
+        <div class="comic-modal-actions">
+          <button type="button" class="comic-icon-btn" data-comic-fullscreen title="Pantalla completa">⛶</button>
+          <button type="button" class="comic-icon-btn" data-comic-close title="Cerrar">×</button>
+        </div>
+      </div>
+      <div class="comic-stage">
+        <button type="button" class="comic-nav comic-prev" data-comic-prev aria-label="Página anterior">‹</button>
+        <img id="comicModalImage" src="" alt="" />
+        <button type="button" class="comic-nav comic-next" data-comic-next aria-label="Página siguiente">›</button>
+      </div>
+      <div class="comic-modal-footer">
+        <button class="btn btn-ghost" type="button" data-comic-prev>Anterior</button>
+        <span id="comicCounter">Portada</span>
+        <button class="btn btn-primary" type="button" data-comic-next>Siguiente</button>
+      </div>
+      <p class="comic-hint">También podés usar las flechas del teclado. En móvil, girá el teléfono si querés ver más ancho.</p>
     </div>
   </div>
 
