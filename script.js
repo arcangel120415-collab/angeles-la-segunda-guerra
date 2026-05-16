@@ -197,8 +197,8 @@ const FALLBACK_ESCENAS = [
     "capitulo": "Capítulo II",
     "descripcion": "Gabriel ve a Teles por primera vez, habla con ella en la orilla y ella se marcha al mar prometiendo volver.",
     "texto": "La sirena aparece. La curiosidad vence al temor. Él se presenta como ángel, ella como sirena, y antes de irse promete volver.",
-    "video": "https://www.youtube.com/watch?v=fOuHNkgiMsI",
-    "thumbnail": "https://i.ytimg.com/vi/fOuHNkgiMsI/maxresdefault.jpg",
+    "video": "https://youtube.com/shorts/ezMZHOMi1f8?si=wCJxImntc-aRII0U",
+    "thumbnail": "https://i.ytimg.com/vi/ezMZHOMi1f8/maxresdefault.jpg",
     "personajes": [
       "Gabriel",
       "Teles"
