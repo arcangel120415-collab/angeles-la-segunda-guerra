@@ -1206,20 +1206,6 @@ const FALLBACK_PERSONAJES = [
     ]
   },
   {
-    "nombre": "Madre de Teles",
-    "slug": "madre-teles",
-    "categoria": "Océano",
-    "tipo": "Reina del océano",
-    "estado": "Revelada",
-    "imagen": "assets/personajes/madre-teles.jpg",
-    "descripcion": "Una presencia noble y trágica, unida al linaje más profundo del mar.",
-    "detalle": "Su amor por el padre de Teles encendió una historia que jamás debió ser descubierta, y su amor por su hija la convirtió en símbolo de dignidad frente a una condena imposible.",
-    "primeraAparicion": "Profecía de la esfera",
-    "clips": [
-      21
-    ]
-  },
-  {
     "nombre": "Padre de Teles",
     "slug": "padre-teles",
     "categoria": "Océano",
@@ -1462,7 +1448,7 @@ async function init(){
       </div>
     </article>`).join('');
   PERSONAJES_CACHE = personajes;
-  personajesRoot.innerHTML = personajes.filter(p => !p.oculto && (p.slug || '').toLowerCase() !== 'madre-teles').map(personajeCard).join('');
+  personajesRoot.innerHTML = personajes.filter(p => { const slug = (p.slug || '').toLowerCase(); const nombre = (p.nombre || '').toLowerCase(); return !p.oculto && slug !== 'madre-teles' && !nombre.includes('madre de teles') && !nombre.includes('reina del mar'); }).map(personajeCard).join('');
 }
 init().catch(err => console.error(err));
 // Feedback flotante - Ángeles

@@ -44,3 +44,9 @@ El widget flotante registra interacciones simples en Google Analytics: like_hist
 
 - Revisar en GitHub Pages que la miniatura del Clip 25 cargue correctamente. Si YouTube no entrega `maxresdefault.jpg`, cambiarla por `hqdefault.jpg`.
 - Cuando la Reina del Mar tenga video propio, quitar la marca de personaje oculto en `data/personajes.json`.
+
+
+## v31 - Corrección puntual
+- Se eliminó temporalmente la ficha `madre-teles` del JSON visible para que no se renderice la tarjeta de Madre de Teles/Reina del Mar.
+- El botón Sugerencia ahora es un enlace directo al Google Form desde el HTML, sin depender del modal ni de JavaScript.
+- Se agregó cache busting `?v=31` a `style.css` y `script.js` para evitar que GitHub Pages o el navegador sigan mostrando la versión anterior.

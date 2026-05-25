@@ -178,22 +178,6 @@
     ]
   },
   {
-    "nombre": "Madre de Teles",
-    "slug": "madre-teles",
-    "categoria": "Océano",
-    "tipo": "Reina del océano",
-    "estado": "Oculta hasta nuevo video",
-    "imagen": "assets/personajes/madre-teles.jpg",
-    "descripcion": "Una presencia noble y trágica, unida al linaje más profundo del mar.",
-    "detalle": "Su amor por el padre de Teles encendió una historia que jamás debió ser descubierta, y su amor por su hija la convirtió en símbolo de dignidad frente a una condena imposible.",
-    "primeraAparicion": "Profecía de la esfera",
-    "clips": [
-      21
-    ],
-    "oculto": true,
-    "notaInterna": "Tarjeta escondida temporalmente hasta que la Reina del Mar tenga video propio."
-  },
-  {
     "nombre": "Padre de Teles",
     "slug": "padre-teles",
     "categoria": "Océano",

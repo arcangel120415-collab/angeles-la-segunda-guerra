@@ -570,3 +570,30 @@ body.comic-open{overflow:hidden;}
     margin-inline:auto;
   }
 }
+
+/* v31 - Corrección real: ocultar totalmente Madre de Teles y conectar Form sin JS */
+.character-card[data-character="madre-teles"],
+.character-tile[data-character="madre-teles"],
+article[data-character="madre-teles"],
+[data-character="madre-teles"]{
+  display:none!important;
+}
+.reader-panel a.reader-panel-link{
+  display:block;
+  width:100%;
+  padding:10px 12px;
+  border:1px solid rgba(240,214,139,.35);
+  background:rgba(255,255,255,.03);
+  color:var(--gold-soft);
+  font-family:'Cinzel',serif;
+  letter-spacing:.06em;
+  text-align:left;
+  text-decoration:none;
+  border-radius:10px;
+  cursor:pointer;
+  white-space:normal;
+  line-height:1.18;
+}
+.reader-panel a.reader-panel-link:hover{
+  background:rgba(240,214,139,.12);
+}
