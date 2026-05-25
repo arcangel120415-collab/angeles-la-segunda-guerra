@@ -1,4 +1,5 @@
 const playlistUrl = "https://youtube.com/playlist?list=PLY_bLJufZa1Ja41kDy6Z607IzbuazL4xi&si=_HKSNCge-A-qhTwJ";
+const suggestionFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLScy1i3MNMXtK9IlvR3hvCsLNIQb5Znpp0OoFuU4b7bfX7A_Jg/viewform?usp=publish-editor";
 
 const FALLBACK_ESCENAS = [
   {
@@ -1461,7 +1462,7 @@ async function init(){
       </div>
     </article>`).join('');
   PERSONAJES_CACHE = personajes;
-  personajesRoot.innerHTML = personajes.map(personajeCard).join('');
+  personajesRoot.innerHTML = personajes.filter(p => !p.oculto && (p.slug || '').toLowerCase() !== 'madre-teles').map(personajeCard).join('');
 }
 init().catch(err => console.error(err));
 // Feedback flotante - Ángeles
@@ -1520,11 +1521,11 @@ document.addEventListener("DOMContentLoaded", function () {
       track("click_sugerencia");
       panel.innerHTML = `
         <h3>Mensaje para el autor</h3>
-        <p>Si una duda, teoría o sugerencia apareció mientras leías, podés dejar una señal en el canal.</p>
-        <p>También podés elegir una frase del libro y dejarla <strong>entre comillas</strong> en cualquier video.</p>
+        <p>Si una duda, teoría o sugerencia apareció mientras leías, podés enviarla directamente al autor.</p>
+        <p>El formulario pide solo un mensaje. El email es opcional si querés recibir respuesta.</p>
         <div class="feedback-actions">
-          <a class="btn btn-primary" target="_blank" rel="noopener" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR">Ir al canal</a>
-          <a class="btn btn-ghost" href="#fragmento-extendido">Ingresar palabra</a>
+          <a class="btn btn-primary" target="_blank" rel="noopener" href="${suggestionFormUrl}">Enviar sugerencia</a>
+          <a class="btn btn-ghost" href="#fragmento-extendido">Volver a la historia</a>
         </div>
       `;
     });
@@ -1603,12 +1604,12 @@ document.addEventListener("DOMContentLoaded", function () {
       openFeedback(
         "Mensaje para el autor",
         `
-          <p>Si una duda, teoría o sugerencia apareció mientras leías, podés dejar una señal en el canal.</p>
-          <p>También podés elegir una frase del libro y dejarla <strong>entre comillas</strong> en cualquier video.</p>
-          <p class="modal-note">Una señal pierde fuerza cuando se explica.</p>
+          <p>Si una duda, teoría o sugerencia apareció mientras leías, podés enviarla directamente al autor.</p>
+          <p>El formulario pide solo un mensaje. El email es opcional si querés recibir respuesta.</p>
+          <p class="modal-note">La historia sigue creciendo con cada lector que cruza el umbral.</p>
           <div class="modal-actions">
-            <a class="btn btn-primary" target="_blank" rel="noopener" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR">Ir al canal</a>
-            <a class="btn btn-ghost" href="#fragmento-extendido" data-feedback-close>Ingresar palabra</a>
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="${suggestionFormUrl}">Enviar sugerencia</a>
+            <a class="btn btn-ghost" href="#fragmento-extendido" data-feedback-close>Volver a la historia</a>
           </div>
         `
       );

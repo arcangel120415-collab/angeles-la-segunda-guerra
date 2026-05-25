@@ -519,3 +519,54 @@ body.comic-open{overflow:hidden;}
   #comicCounter{font-size:12px;}
   .comic-hint{display:none;}
 }
+
+/* v29 - Formulario de sugerencias, Reina del Mar oculta y ajustes móviles */
+.character-tile[data-character="madre-teles"]{
+  display:none!important;
+}
+
+.reader-panel button,
+.btn,
+.video-actions .btn,
+.modal-actions .btn,
+.hero-actions .btn{
+  white-space:normal;
+  line-height:1.18;
+}
+
+@media (max-width:620px){
+  .nav{
+    justify-content:center;
+  }
+  .nav a{
+    padding:8px 9px;
+    text-align:center;
+  }
+  .hero-actions,
+  .video-actions,
+  .modal-actions{
+    width:100%;
+    justify-content:center;
+  }
+  .hero-actions .btn,
+  .video-actions .btn,
+  .modal-actions .btn{
+    flex:1 1 100%;
+    text-align:center;
+    padding:12px 14px;
+    font-size:12px;
+    letter-spacing:.045em;
+  }
+  .reader-panel{
+    width:min(260px, calc(100vw - 24px));
+  }
+  .reader-panel button{
+    text-align:center;
+  }
+  .section.shell,
+  .comic-card,
+  .book-card,
+  .extended-card{
+    margin-inline:auto;
+  }
+}

@@ -25,3 +25,22 @@ Primero se publica una versión estable. Luego cada cambio debe salir como versi
 ## Feedback de lectores
 
 El widget flotante registra interacciones simples en Google Analytics: like_historia, dislike_historia, click_sugerencia, click_youtube_canal, unlock_attempt y unlock_success. Para cambiar la palabra semanal, editar ACCESS_CODE en script.js.
+
+## v29 - Ajustes aplicados
+
+- Botón flotante **Sugerencia** conectado al Google Form:
+  https://docs.google.com/forms/d/e/1FAIpQLScy1i3MNMXtK9IlvR3hvCsLNIQb5Znpp0OoFuU4b7bfX7A_Jg/viewform?usp=publish-editor
+- Tarjeta de **Madre de Teles / Reina del Mar** marcada como oculta hasta que tenga video propio.
+- Ajustes responsive para que los botones no corten texto en móvil.
+
+## v30 - Clip 25 agregado
+
+- Se agregó **Ángeles: La Segunda Guerra – Clip 25 | La promesa de Azazel** al **Apéndice Azazel**, después de “El duelo y la ciudadela errante”.
+- Link usado:
+  https://youtube.com/shorts/q-otPuQbkH4?feature=share
+- El “CONTINUARÁ” quedó ahora al final del Clip 25 para que el apéndice avance de forma natural.
+
+## Pendiente para la siguiente tanda
+
+- Revisar en GitHub Pages que la miniatura del Clip 25 cargue correctamente. Si YouTube no entrega `maxresdefault.jpg`, cambiarla por `hqdefault.jpg`.
+- Cuando la Reina del Mar tenga video propio, quitar la marca de personaje oculto en `data/personajes.json`.

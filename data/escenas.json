@@ -504,14 +504,40 @@
       "Azazel",
       "Lucifer"
     ],
-    "rangoLibro": "Cierre provisorio del apéndice de Azazel.",
-    "fragmentoBase": "El apéndice queda abierto para futuros clips: la ciudadela flota invisible y Azazel comprende que Lucifer volverá.",
+    "rangoLibro": "Continuación del apéndice de Azazel, antes de la promesa hecha a Eva.",
+    "fragmentoBase": "La ciudadela flota invisible y Azazel comprende que Lucifer volverá; desde esa soledad nace la necesidad de buscar una compañía imposible.",
     "lectura": [
       "Lucifer apareció aplaudiendo, no para celebrar una victoria, sino para burlarse de la resistencia de Azazel.",
       "La pelea fue exacta. Ataque y defensa se conocían desde antes de la caída. Ninguno encontraba un golpe que el otro no hubiese imaginado siglos antes.",
       "Hasta que Azazel notó la ausencia del fuego. Lucifer no lo usaba. Algo lo alejaba de su propia naturaleza. Azazel encendió una ráfaga en su pierna y consiguió un impacto único. El calor abrió distancia; un portal se abrió a espaldas de Lucifer y lo reclamó hacia el infierno.",
       "Antes de desaparecer, Lucifer dejó una amenaza: ahora sabía dónde encontrarlo.",
-      "Azazel respondió con un último sacrificio de plumas. Elevó la ciudadela, la envolvió en una cúpula invisible y la soltó sobre las nubes. Desde entonces vagaría errante, oculta para todos… salvo para él.",
+      "Azazel respondió con un último sacrificio de plumas. Elevó la ciudadela, la envolvió en una cúpula invisible y la soltó sobre las nubes. Desde entonces vagaría errante, oculta para todos… salvo para él."
+    ],
+    "grupo": "Apéndice Azazel"
+  },
+  {
+    "id": "apendice-azazel-promesa-eva",
+    "tipo": "apendice",
+    "clip": 25,
+    "storyOrder": 8.5,
+    "videoOrder": 25,
+    "titulo": "Apéndice 5 — La promesa de Azazel",
+    "capitulo": "Apéndice Azazel",
+    "descripcion": "Azazel, encerrado en su eternidad, recuerda el Edén y encuentra en Eva una presencia capaz de acompañarlo. Le ofrece una posibilidad imposible: volver al paraíso y salvar a los suyos, sin revelar que aquella promesa será el comienzo de una nueva prisión.",
+    "texto": "Azazel, encerrado en su eternidad, busca una presencia capaz de acompañarlo en un mundo que desprecia. Al recordar el Edén y el origen de los humanos, encuentra a Eva entre su linaje y le ofrece una posibilidad imposible: volver al paraíso y salvar a los suyos. Ella acepta sin saber que aquella promesa será el comienzo de una nueva prisión.",
+    "video": "https://youtube.com/shorts/q-otPuQbkH4?feature=share",
+    "thumbnail": "https://i.ytimg.com/vi/q-otPuQbkH4/maxresdefault.jpg",
+    "personajes": [
+      "Azazel",
+      "Eva"
+    ],
+    "rangoLibro": "Nueva continuación del Apéndice Azazel, después de la ciudadela errante.",
+    "fragmentoBase": "Expansión visual de la promesa de Azazel: la soledad del falso Edén, Eva como elegida y el inicio de una prisión disfrazada de salvación.",
+    "lectura": [
+      "La ciudadela ya no pertenecía al mundo. Vagaba oculta sobre las nubes, invisible para los ojos de la Tierra e inalcanzable para quienes aún podían reclamar justicia.",
+      "Pero la eternidad sin compañía también era una condena. Azazel miró hacia el recuerdo del Edén y comprendió que, entre los humanos, todavía existía una raíz capaz de escuchar la promesa de un paraíso perdido.",
+      "Encontró a Eva entre ese linaje y le habló de salvación. Le ofreció volver al lugar que su historia había perdido, proteger a los suyos y recuperar lo imposible.",
+      "Ella aceptó sin saber que no entraba al paraíso, sino a una prisión perfecta: una eternidad construida por la voluntad de Azazel.",
       "CONTINUARÁ."
     ],
     "grupo": "Apéndice Azazel"
