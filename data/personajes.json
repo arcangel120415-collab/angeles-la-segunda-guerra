@@ -46,6 +46,19 @@
     ]
   },
   {
+    "nombre": "Madre de Teles",
+    "slug": "madre-teles",
+    "categoria": "Océano",
+    "tipo": "?",
+    "estado": "?",
+    "bloqueado": true,
+    "descripcion": "?",
+    "detalle": "?",
+    "primeraAparicion": "?",
+    "clips": [],
+    "oculto": false
+  },
+  {
     "nombre": "Haniel",
     "slug": "haniel",
     "categoria": "Ángeles",

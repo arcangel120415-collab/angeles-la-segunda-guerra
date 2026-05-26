@@ -50,3 +50,14 @@ El widget flotante registra interacciones simples en Google Analytics: like_hist
 - Se eliminó temporalmente la ficha `madre-teles` del JSON visible para que no se renderice la tarjeta de Madre de Teles/Reina del Mar.
 - El botón Sugerencia ahora es un enlace directo al Google Form desde el HTML, sin depender del modal ni de JavaScript.
 - Se agregó cache busting `?v=31` a `style.css` y `script.js` para evitar que GitHub Pages o el navegador sigan mostrando la versión anterior.
+
+
+## v32
+- Madre de Teles vuelve a aparecer como tarjeta bloqueada/revelación pendiente, sin imagen y con signo de pregunta, igual que Hades y otros personajes no revelados.
+- Se elimina el filtro que ocultaba por completo `madre-teles`.
+- Se actualiza caché a `?v=32`.
+
+## v34
+- Reemplazado favicon por emblema estilo portada: A ígnea, halo, espadas cruzadas y II.
+- Forzado cache busting de iconos, CSS y JS a `?v=34`.
+- Madre de Teles queda visible como tarjeta bloqueada con `?`, sin imagen ni ficha revelada.

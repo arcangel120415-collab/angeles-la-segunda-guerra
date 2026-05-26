@@ -1074,6 +1074,19 @@ const FALLBACK_PERSONAJES = [
     ]
   },
   {
+    "nombre": "Madre de Teles",
+    "slug": "madre-teles",
+    "categoria": "Océano",
+    "tipo": "?",
+    "estado": "?",
+    "bloqueado": true,
+    "oculto": false,
+    "descripcion": "?",
+    "detalle": "?",
+    "primeraAparicion": "?",
+    "clips": []
+  },
+  {
     "nombre": "Haniel",
     "slug": "haniel",
     "categoria": "Ángeles",
@@ -1447,8 +1460,18 @@ async function init(){
         <div class="video-actions"><button class="btn btn-ghost" data-video="${e.video || ''}">Ver clip</button>${e.tipo !== 'promo' ? `<a class="btn btn-link" href="#lectura-${e.id}">Ir a la historia</a>` : `<a class="btn btn-link" href="#historia">Ir al comienzo</a>`}</div>
       </div>
     </article>`).join('');
+  const madreTelesExiste = personajes.some(p => (p.slug || '').toLowerCase() === 'madre-teles' || (p.nombre || '').toLowerCase() === 'madre de teles');
+  if(!madreTelesExiste){
+    personajes.splice(2, 0, {nombre:'Madre de Teles', slug:'madre-teles', categoria:'Océano', tipo:'?', estado:'?', bloqueado:true, oculto:false, descripcion:'?', detalle:'?', primeraAparicion:'?', clips:[]});
+  } else {
+    personajes.forEach(p => {
+      if((p.slug || '').toLowerCase() === 'madre-teles' || (p.nombre || '').toLowerCase() === 'madre de teles'){
+        p.oculto = false; p.bloqueado = true; p.estado = '?'; p.tipo = '?'; p.descripcion = '?'; p.detalle = '?'; delete p.imagen;
+      }
+    });
+  }
   PERSONAJES_CACHE = personajes;
-  personajesRoot.innerHTML = personajes.filter(p => { const slug = (p.slug || '').toLowerCase(); const nombre = (p.nombre || '').toLowerCase(); return !p.oculto && slug !== 'madre-teles' && !nombre.includes('madre de teles') && !nombre.includes('reina del mar'); }).map(personajeCard).join('');
+  personajesRoot.innerHTML = personajes.filter(p => !p.oculto).map(personajeCard).join('');
 }
 init().catch(err => console.error(err));
 // Feedback flotante - Ángeles

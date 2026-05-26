@@ -520,11 +520,7 @@ body.comic-open{overflow:hidden;}
   .comic-hint{display:none;}
 }
 
-/* v29 - Formulario de sugerencias, Reina del Mar oculta y ajustes móviles */
-.character-tile[data-character="madre-teles"]{
-  display:none!important;
-}
-
+/* v29 - Formulario de sugerencias y ajustes móviles */
 .reader-panel button,
 .btn,
 .video-actions .btn,
@@ -571,13 +567,7 @@ body.comic-open{overflow:hidden;}
   }
 }
 
-/* v31 - Corrección real: ocultar totalmente Madre de Teles y conectar Form sin JS */
-.character-card[data-character="madre-teles"],
-.character-tile[data-character="madre-teles"],
-article[data-character="madre-teles"],
-[data-character="madre-teles"]{
-  display:none!important;
-}
+/* v33 - Madre de Teles vuelve como personaje bloqueado; Form conectado sin JS */
 .reader-panel a.reader-panel-link{
   display:block;
   width:100%;
@@ -597,3 +587,7 @@ article[data-character="madre-teles"],
 .reader-panel a.reader-panel-link:hover{
   background:rgba(240,214,139,.12);
 }
+
+/* v34 - icono estilo portada y Madre de Teles bloqueada visible */
+.character-tile[data-character="madre-teles"]{display:flex!important;}
+.character-tile[data-character="madre-teles"] .character-image{background:radial-gradient(circle at center,rgba(70,95,120,.18),rgba(0,0,0,.88)),linear-gradient(135deg,#03070c,#000)!important;}
