@@ -588,6 +588,4 @@ body.comic-open{overflow:hidden;}
   background:rgba(240,214,139,.12);
 }
 
-/* v34 - icono estilo portada y Madre de Teles bloqueada visible */
-.character-tile[data-character="madre-teles"]{display:flex!important;}
-.character-tile[data-character="madre-teles"] .character-image{background:radial-gradient(circle at center,rgba(70,95,120,.18),rgba(0,0,0,.88)),linear-gradient(135deg,#03070c,#000)!important;}
+/* v35 - Madre de Teles revelada con Clip 26 y enlace actualizado */

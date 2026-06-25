@@ -267,8 +267,8 @@ const FALLBACK_ESCENAS = [
     "capitulo": "Capítulo II",
     "descripcion": "Gabriel espera durante horas; cae la noche, Teles vuelve sonriendo y él despliega sus alas ante ella.",
     "texto": "La espera se vuelve eterna para un inmortal. Teles regresa, la conversación continúa y Gabriel vuelve a mostrar aquello que es.",
-    "video": "https://www.youtube.com/watch?v=1sjaZfXcPQE",
-    "thumbnail": "https://i.ytimg.com/vi/1sjaZfXcPQE/maxresdefault.jpg",
+    "video": "https://youtube.com/shorts/iFJ7rl0JJCs",
+    "thumbnail": "https://i.ytimg.com/vi/iFJ7rl0JJCs/maxresdefault.jpg",
     "personajes": [
       "Gabriel",
       "Teles"
@@ -507,14 +507,40 @@ const FALLBACK_ESCENAS = [
       "Azazel",
       "Lucifer"
     ],
-    "rangoLibro": "Cierre provisorio del apéndice de Azazel.",
-    "fragmentoBase": "El apéndice queda abierto para futuros clips: la ciudadela flota invisible y Azazel comprende que Lucifer volverá.",
+    "rangoLibro": "Continuación del apéndice de Azazel, antes de la promesa hecha a Eva.",
+    "fragmentoBase": "La ciudadela flota invisible y Azazel comprende que Lucifer volverá; desde esa soledad nace la necesidad de buscar una compañía imposible.",
     "lectura": [
       "Lucifer apareció aplaudiendo, no para celebrar una victoria, sino para burlarse de la resistencia de Azazel.",
       "La pelea fue exacta. Ataque y defensa se conocían desde antes de la caída. Ninguno encontraba un golpe que el otro no hubiese imaginado siglos antes.",
       "Hasta que Azazel notó la ausencia del fuego. Lucifer no lo usaba. Algo lo alejaba de su propia naturaleza. Azazel encendió una ráfaga en su pierna y consiguió un impacto único. El calor abrió distancia; un portal se abrió a espaldas de Lucifer y lo reclamó hacia el infierno.",
       "Antes de desaparecer, Lucifer dejó una amenaza: ahora sabía dónde encontrarlo.",
-      "Azazel respondió con un último sacrificio de plumas. Elevó la ciudadela, la envolvió en una cúpula invisible y la soltó sobre las nubes. Desde entonces vagaría errante, oculta para todos… salvo para él.",
+      "Azazel respondió con un último sacrificio de plumas. Elevó la ciudadela, la envolvió en una cúpula invisible y la soltó sobre las nubes. Desde entonces vagaría errante, oculta para todos… salvo para él."
+    ],
+    "grupo": "Apéndice Azazel"
+  },
+  {
+    "id": "apendice-azazel-promesa-eva",
+    "tipo": "apendice",
+    "clip": 25,
+    "storyOrder": 8.5,
+    "videoOrder": 25,
+    "titulo": "Apéndice 5 — La promesa de Azazel",
+    "capitulo": "Apéndice Azazel",
+    "descripcion": "Azazel, encerrado en su eternidad, recuerda el Edén y encuentra en Eva una presencia capaz de acompañarlo. Le ofrece una posibilidad imposible: volver al paraíso y salvar a los suyos, sin revelar que aquella promesa será el comienzo de una nueva prisión.",
+    "texto": "Azazel, encerrado en su eternidad, busca una presencia capaz de acompañarlo en un mundo que desprecia. Al recordar el Edén y el origen de los humanos, encuentra a Eva entre su linaje y le ofrece una posibilidad imposible: volver al paraíso y salvar a los suyos. Ella acepta sin saber que aquella promesa será el comienzo de una nueva prisión.",
+    "video": "https://youtube.com/shorts/q-otPuQbkH4?feature=share",
+    "thumbnail": "https://i.ytimg.com/vi/q-otPuQbkH4/maxresdefault.jpg",
+    "personajes": [
+      "Azazel",
+      "Eva"
+    ],
+    "rangoLibro": "Nueva continuación del Apéndice Azazel, después de la ciudadela errante.",
+    "fragmentoBase": "Expansión visual de la promesa de Azazel: la soledad del falso Edén, Eva como elegida y el inicio de una prisión disfrazada de salvación.",
+    "lectura": [
+      "La ciudadela ya no pertenecía al mundo. Vagaba oculta sobre las nubes, invisible para los ojos de la Tierra e inalcanzable para quienes aún podían reclamar justicia.",
+      "Pero la eternidad sin compañía también era una condena. Azazel miró hacia el recuerdo del Edén y comprendió que, entre los humanos, todavía existía una raíz capaz de escuchar la promesa de un paraíso perdido.",
+      "Encontró a Eva entre ese linaje y le habló de salvación. Le ofreció volver al lugar que su historia había perdido, proteger a los suyos y recuperar lo imposible.",
+      "Ella aceptó sin saber que no entraba al paraíso, sino a una prisión perfecta: una eternidad construida por la voluntad de Azazel.",
       "CONTINUARÁ."
     ],
     "grupo": "Apéndice Azazel"
@@ -638,6 +664,42 @@ const FALLBACK_ESCENAS = [
       "Cuando su padre volvió en sí, no preguntó primero por la guerra ni por Poseidón. Extendió la mano y le secó la lágrima."
     ],
     "grupo": "Línea principal"
+  },
+  {
+    "id": "reina-mar-recuerdo-esfera",
+    "tipo": "escena",
+    "titulo": "Subcapítulo 4.2 — La Reina del Mar",
+    "capitulo": "Capítulo IV",
+    "descripcion": "El padre de Teles le entrega la esfera destinada a ella y revive el recuerdo que dejó la Reina del Mar: las Theia Pompholyx, el anillo de Apolo y el falso recuerdo implantado en Poseidón.",
+    "texto": "Antes de que Teles pueda comprender su destino, su padre abre el recuerdo que su madre dejó oculto. La verdad de la Reina del Mar comienza en una esfera y termina dentro de la mente de Poseidón.",
+    "rangoLibro": "Después de que Teles cuida a su padre en la cueva y antes de que ella active su propia Theia Pompholyx.",
+    "fragmentoBase": "El clip muestra al padre de Teles navegando como espíritu dentro del recuerdo: la Reina del Mar entra al salón de tesoros, encuentra el anillo de Apolo, ve el futuro, graba las tres esferas y le implanta a Poseidón el falso recuerdo que retrasa la profecía.",
+    "lectura": [
+      "El padre de Teles recuperó fuerzas lentamente. La miró como si llevara siglos guardando una verdad demasiado grande para pronunciarla.",
+      "—Había una caja junto a ti —le dijo—. Dentro había dos Theia Pompholyx. Burbujas de Dios. Una estaba dirigida a mí y otra a ti.",
+      "Teles sintió que el océano entero se aquietaba dentro de la cueva.",
+      "—Usé la que tenía mi nombre —continuó su padre—. Y esto fue lo que me reveló.",
+      "La oscuridad reinó primero. Luego apareció la luz. La Reina del Mar se movía con urgencia por los pasillos del reino, atravesando la memoria como si el tiempo aún intentara alcanzarla.",
+      "Su esposo no caminaba junto a ella: era una presencia transparente, un testigo arrastrado por el recuerdo que había recibido.",
+      "Ella llegó al salón de los tesoros de Poseidón. Abrió el gran cofre y encontró reliquias antiguas, las tres esferas y el anillo de Apolo.",
+      "Al colocárselo, sus ojos se llenaron de luz. Vio una posibilidad terrible: ciudades destruidas, criaturas encadenadas, Teles y su madre usadas como instrumentos de un futuro imposible.",
+      "Cuando el trance terminó, no se quebró. Pensó. Tomó las esferas y grabó en ellas los recuerdos que debían sobrevivir al miedo.",
+      "Luego fue hasta los aposentos de Poseidón. Él dormía. La Reina apoyó una esfera sobre su frente y el falso recuerdo se acomodó en su mente como una verdad antigua.",
+      "Desde ese instante, la profecía quedó retrasada. La libertad de Teles, la supervivencia de su padre y la prisión de su madre quedaron atadas al mismo sacrificio.",
+      "La burbuja se apagó, pero el peso de aquella decisión quedó vivo en la cueva."
+    ],
+    "clip": 26,
+    "storyOrder": 9.2,
+    "videoOrder": 26,
+    "grupo": "Línea principal",
+    "personajes": [
+      "Teles",
+      "Padre de Teles",
+      "Madre de Teles",
+      "Poseidón"
+    ],
+    "video": "https://youtu.be/A_IyHigbRLE?si=Nf7fQCqnyOlE0NKW",
+    "thumbnail": "https://i.ytimg.com/vi/A_IyHigbRLE/maxresdefault.jpg"
   },
   {
     "id": "gabriel-puertas-cielo",
@@ -1077,14 +1139,17 @@ const FALLBACK_PERSONAJES = [
     "nombre": "Madre de Teles",
     "slug": "madre-teles",
     "categoria": "Océano",
-    "tipo": "?",
-    "estado": "?",
-    "bloqueado": true,
+    "tipo": "Reina del Mar",
+    "estado": "Revelada",
+    "bloqueado": false,
+    "descripcion": "Una reina noble y trágica, capaz de convertir su amor por Teles en una estrategia para desafiar a Poseidón.",
+    "detalle": "La Reina del Mar descubrió un futuro de cadenas, guerra y profecía. Para proteger a su hija, grabó recuerdos en las Theia Pompholyx, implantó en Poseidón una verdad falsa y aceptó su propia reclusión como parte de un sacrificio imposible.",
+    "primeraAparicion": "Capítulo IV · La Reina del Mar",
+    "clips": [
+      26
+    ],
     "oculto": false,
-    "descripcion": "?",
-    "detalle": "?",
-    "primeraAparicion": "?",
-    "clips": []
+    "imagen": "assets/personajes/madre-teles.jpg"
   },
   {
     "nombre": "Haniel",
@@ -1460,16 +1525,6 @@ async function init(){
         <div class="video-actions"><button class="btn btn-ghost" data-video="${e.video || ''}">Ver clip</button>${e.tipo !== 'promo' ? `<a class="btn btn-link" href="#lectura-${e.id}">Ir a la historia</a>` : `<a class="btn btn-link" href="#historia">Ir al comienzo</a>`}</div>
       </div>
     </article>`).join('');
-  const madreTelesExiste = personajes.some(p => (p.slug || '').toLowerCase() === 'madre-teles' || (p.nombre || '').toLowerCase() === 'madre de teles');
-  if(!madreTelesExiste){
-    personajes.splice(2, 0, {nombre:'Madre de Teles', slug:'madre-teles', categoria:'Océano', tipo:'?', estado:'?', bloqueado:true, oculto:false, descripcion:'?', detalle:'?', primeraAparicion:'?', clips:[]});
-  } else {
-    personajes.forEach(p => {
-      if((p.slug || '').toLowerCase() === 'madre-teles' || (p.nombre || '').toLowerCase() === 'madre de teles'){
-        p.oculto = false; p.bloqueado = true; p.estado = '?'; p.tipo = '?'; p.descripcion = '?'; p.detalle = '?'; delete p.imagen;
-      }
-    });
-  }
   PERSONAJES_CACHE = personajes;
   personajesRoot.innerHTML = personajes.filter(p => !p.oculto).map(personajeCard).join('');
 }

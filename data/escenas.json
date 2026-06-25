@@ -663,6 +663,42 @@
     "grupo": "Línea principal"
   },
   {
+    "id": "reina-mar-recuerdo-esfera",
+    "tipo": "escena",
+    "titulo": "Subcapítulo 4.2 — La Reina del Mar",
+    "capitulo": "Capítulo IV",
+    "descripcion": "El padre de Teles le entrega la esfera destinada a ella y revive el recuerdo que dejó la Reina del Mar: las Theia Pompholyx, el anillo de Apolo y el falso recuerdo implantado en Poseidón.",
+    "texto": "Antes de que Teles pueda comprender su destino, su padre abre el recuerdo que su madre dejó oculto. La verdad de la Reina del Mar comienza en una esfera y termina dentro de la mente de Poseidón.",
+    "rangoLibro": "Después de que Teles cuida a su padre en la cueva y antes de que ella active su propia Theia Pompholyx.",
+    "fragmentoBase": "El clip muestra al padre de Teles navegando como espíritu dentro del recuerdo: la Reina del Mar entra al salón de tesoros, encuentra el anillo de Apolo, ve el futuro, graba las tres esferas y le implanta a Poseidón el falso recuerdo que retrasa la profecía.",
+    "lectura": [
+      "El padre de Teles recuperó fuerzas lentamente. La miró como si llevara siglos guardando una verdad demasiado grande para pronunciarla.",
+      "—Había una caja junto a ti —le dijo—. Dentro había dos Theia Pompholyx. Burbujas de Dios. Una estaba dirigida a mí y otra a ti.",
+      "Teles sintió que el océano entero se aquietaba dentro de la cueva.",
+      "—Usé la que tenía mi nombre —continuó su padre—. Y esto fue lo que me reveló.",
+      "La oscuridad reinó primero. Luego apareció la luz. La Reina del Mar se movía con urgencia por los pasillos del reino, atravesando la memoria como si el tiempo aún intentara alcanzarla.",
+      "Su esposo no caminaba junto a ella: era una presencia transparente, un testigo arrastrado por el recuerdo que había recibido.",
+      "Ella llegó al salón de los tesoros de Poseidón. Abrió el gran cofre y encontró reliquias antiguas, las tres esferas y el anillo de Apolo.",
+      "Al colocárselo, sus ojos se llenaron de luz. Vio una posibilidad terrible: ciudades destruidas, criaturas encadenadas, Teles y su madre usadas como instrumentos de un futuro imposible.",
+      "Cuando el trance terminó, no se quebró. Pensó. Tomó las esferas y grabó en ellas los recuerdos que debían sobrevivir al miedo.",
+      "Luego fue hasta los aposentos de Poseidón. Él dormía. La Reina apoyó una esfera sobre su frente y el falso recuerdo se acomodó en su mente como una verdad antigua.",
+      "Desde ese instante, la profecía quedó retrasada. La libertad de Teles, la supervivencia de su padre y la prisión de su madre quedaron atadas al mismo sacrificio.",
+      "La burbuja se apagó, pero el peso de aquella decisión quedó vivo en la cueva."
+    ],
+    "clip": 26,
+    "storyOrder": 9.2,
+    "videoOrder": 26,
+    "grupo": "Línea principal",
+    "personajes": [
+      "Teles",
+      "Padre de Teles",
+      "Madre de Teles",
+      "Poseidón"
+    ],
+    "video": "https://youtu.be/A_IyHigbRLE?si=Nf7fQCqnyOlE0NKW",
+    "thumbnail": "https://i.ytimg.com/vi/A_IyHigbRLE/maxresdefault.jpg"
+  },
+  {
     "id": "gabriel-puertas-cielo",
     "tipo": "escena",
     "clip": 10,

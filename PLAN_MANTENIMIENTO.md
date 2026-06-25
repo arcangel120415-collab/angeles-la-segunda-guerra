@@ -61,3 +61,10 @@ El widget flotante registra interacciones simples en Google Analytics: like_hist
 - Reemplazado favicon por emblema estilo portada: A ígnea, halo, espadas cruzadas y II.
 - Forzado cache busting de iconos, CSS y JS a `?v=34`.
 - Madre de Teles queda visible como tarjeta bloqueada con `?`, sin imagen ni ficha revelada.
+
+
+## v35 - Clip 26 y Reina del Mar revelada
+- Se agregó el Clip 26 “La Reina del Mar” después de “La hija arrebatada al océano”.
+- Se reveló la tarjeta de Madre de Teles/Reina del Mar con imagen y ficha.
+- Se actualizó el enlace de “La promesa bajo la luna” al nuevo short `iFJ7rl0JJCs`.
+- Se mantuvo el ícono estilo portada de v34, Forms, Analytics, historieta emergente y Clip 25.

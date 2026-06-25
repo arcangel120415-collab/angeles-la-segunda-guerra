@@ -49,14 +49,17 @@
     "nombre": "Madre de Teles",
     "slug": "madre-teles",
     "categoria": "Océano",
-    "tipo": "?",
-    "estado": "?",
-    "bloqueado": true,
-    "descripcion": "?",
-    "detalle": "?",
-    "primeraAparicion": "?",
-    "clips": [],
-    "oculto": false
+    "tipo": "Reina del Mar",
+    "estado": "Revelada",
+    "bloqueado": false,
+    "descripcion": "Una reina noble y trágica, capaz de convertir su amor por Teles en una estrategia para desafiar a Poseidón.",
+    "detalle": "La Reina del Mar descubrió un futuro de cadenas, guerra y profecía. Para proteger a su hija, grabó recuerdos en las Theia Pompholyx, implantó en Poseidón una verdad falsa y aceptó su propia reclusión como parte de un sacrificio imposible.",
+    "primeraAparicion": "Capítulo IV · La Reina del Mar",
+    "clips": [
+      26
+    ],
+    "oculto": false,
+    "imagen": "assets/personajes/madre-teles.jpg"
   },
   {
     "nombre": "Haniel",
