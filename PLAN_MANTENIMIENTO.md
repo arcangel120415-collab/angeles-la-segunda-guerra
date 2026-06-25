@@ -68,3 +68,9 @@ El widget flotante registra interacciones simples en Google Analytics: like_hist
 - Se reveló la tarjeta de Madre de Teles/Reina del Mar con imagen y ficha.
 - Se actualizó el enlace de “La promesa bajo la luna” al nuevo short `iFJ7rl0JJCs`.
 - Se mantuvo el ícono estilo portada de v34, Forms, Analytics, historieta emergente y Clip 25.
+
+
+## v36 - Revisión lectura literal
+- Corregido el bloque del Clip 26 "La Reina del Mar": la lectura vuelve a usar el texto literal del Capítulo IV del libro.
+- El clip queda como complemento visual y no reemplaza ni resume el texto.
+- Se retiraron dos líneas resumidas que habían quedado al final de "Subcapítulo 4.1".
