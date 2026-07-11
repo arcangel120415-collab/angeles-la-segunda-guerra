@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=UnifrakturCook:wght@700&family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=36" />
+  <link rel="stylesheet" href="style.css?v=37" />
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-477J282SD0"></script>
   <script>
@@ -27,6 +27,27 @@
     <div class="blink-layer"></div>
     <div class="deep-vignette"></div>
   </div>
+
+  <section id="introMask" class="intro-mask" aria-label="Entrada cinematográfica" hidden>
+    <video class="intro-mask-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+      <source src="assets/video/intro.mp4" type="video/mp4" />
+    </video>
+    <div class="intro-mask-overlay" aria-hidden="true"></div>
+    <div class="intro-mask-frame" aria-hidden="true"></div>
+    <div class="intro-mask-particles" aria-hidden="true"></div>
+    <div class="intro-mask-content">
+      <div class="intro-mask-emblem">
+        <h1 class="intro-mask-title-text">Ángeles: La Segunda Guerra – Alas Grises</h1>
+        <img class="intro-mask-logo-title" src="assets/branding/logo_intro_titulo_transparente.png" alt="Ángeles: La Segunda Guerra – Alas Grises" />
+      </div>
+      <p class="intro-mask-phrase">“Antes de que los hombres escribieran su historia, los ángeles ya habían aprendido a caer.”</p>
+      <div class="intro-mask-actions">
+        <button class="btn btn-primary intro-mask-button" type="button" data-intro-close>Entrar a la historia</button>
+        <a class="btn btn-ghost intro-mask-button" href="http://www.youtube.com/@%C3%81NGELES_II_GUERRA_C.AGUILAR" target="_blank" rel="noopener noreferrer">Ver canal</a>
+      </div>
+      <button class="intro-mask-skip" type="button" data-intro-close>Saltar intro</button>
+    </div>
+  </section>
 
   <header class="topbar">
     <a class="brand" href="#inicio" aria-label="Ir al inicio">
@@ -224,6 +245,6 @@
   </div>
 
   <footer class="footer">© 2026 Cristian Darío Aguilar · Todos los derechos reservados.</footer>
-  <script src="script.js?v=36"></script>
+  <script src="script.js?v=37"></script>
 </body>
 </html>

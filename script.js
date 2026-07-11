@@ -2023,3 +2023,61 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 })();
+
+// Intro cinematográfica
+(function () {
+  const storageKey = "angelesIntroVista";
+
+  function hasSeenIntro() {
+    try {
+      return window.sessionStorage.getItem(storageKey) === "1";
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function markIntroSeen() {
+    try {
+      window.sessionStorage.setItem(storageKey, "1");
+    } catch (error) {
+      // La intro sigue funcionando aunque el navegador bloquee sessionStorage.
+    }
+  }
+
+  function shouldForceIntro() {
+    try {
+      return new URLSearchParams(window.location.search).get("intro") === "1";
+    } catch (error) {
+      return false;
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const mask = document.getElementById("introMask");
+    const closeButtons = document.querySelectorAll("[data-intro-close]");
+
+    if (!mask) return;
+
+    if (hasSeenIntro() && !shouldForceIntro()) {
+      mask.remove();
+      return;
+    }
+
+    mask.hidden = false;
+    document.body.classList.add("intro-mask-open");
+
+    function closeIntro() {
+      markIntroSeen();
+      mask.classList.add("is-leaving");
+      document.body.classList.remove("intro-mask-open");
+
+      window.setTimeout(function () {
+        mask.remove();
+      }, 950);
+    }
+
+    closeButtons.forEach(function (button) {
+      button.addEventListener("click", closeIntro);
+    });
+  });
+})();
