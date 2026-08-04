@@ -354,8 +354,8 @@ const FALLBACK_ESCENAS = [
     "capitulo": "Capítulo II",
     "descripcion": "En el Faro, Teles comprende lo imposible; al regresar a la Tierra revela que está prometida al Dios del Mar.",
     "texto": "En el Faro, Teles comprende lo imposible; al regresar a la Tierra revela que está prometida al Dios del Mar.",
-    "video": "https://youtube.com/shorts/S8S90iXOdl8?si=qL2zZbUH1D56mvzd",
-    "thumbnail": "https://i.ytimg.com/vi/S8S90iXOdl8/maxresdefault.jpg",
+    "video": "https://www.youtube.com/watch?v=ZHQR_gaHo0U",
+    "thumbnail": "https://i.ytimg.com/vi/ZHQR_gaHo0U/maxresdefault.jpg",
     "personajes": [
       "Gabriel",
       "Teles",
@@ -555,8 +555,8 @@ const FALLBACK_ESCENAS = [
     "capitulo": "Capítulo III",
     "descripcion": "Poseidón separa a Teles de Gabriel; los tritones la arrastran al océano y la esfera termina llevando a Gabriel la verdad que necesita.",
     "texto": "Poseidón separa a Teles de Gabriel; los tritones la arrastran al océano y la esfera termina llevando a Gabriel la verdad que necesita.",
-    "video": "https://youtube.com/shorts/FKam5J9-LCI?feature=share",
-    "thumbnail": "https://i.ytimg.com/vi/FKam5J9-LCI/maxresdefault.jpg",
+    "video": "https://www.youtube.com/watch?v=1_iuEdCAsOw",
+    "thumbnail": "https://i.ytimg.com/vi/1_iuEdCAsOw/maxresdefault.jpg",
     "personajes": [
       "Gabriel",
       "Teles",
