@@ -801,6 +801,47 @@
     "thumbnail": "https://i.ytimg.com/vi/A_IyHigbRLE/maxresdefault.jpg"
   },
   {
+    "id": "seiscientos-anos-despedida",
+    "tipo": "escena",
+    "clip": 27,
+    "storyOrder": 9.3,
+    "videoOrder": 27,
+    "titulo": "Subcapítulo 4.3 — 600 años de despedida",
+    "capitulo": "Capítulo IV",
+    "descripcion": "La Reina del Mar huye con las esferas tras sembrar el falso recuerdo en Poseidón; llega hasta Teles bebé y deja grabada una despedida que será comprendida siglos después.",
+    "texto": "Clip complementario del tramo final del recuerdo de la Reina del Mar. No reemplaza la lectura literal del libro.",
+    "video": "https://www.youtube.com/shorts/ItM1Prz-jps",
+    "thumbnail": "https://i.ytimg.com/vi/ItM1Prz-jps/hqdefault.jpg",
+    "personajes": [
+      "Madre de Teles",
+      "Poseidón",
+      "Tritones",
+      "Padre de Teles",
+      "Teles"
+    ],
+    "rangoLibro": "Capítulo IV: desde «Solo entonces… Huyó» hasta «Y el recuerdo terminó».",
+    "fragmentoBase": "El clip acompaña el tramo final de la memoria: la huida con las esferas, la llegada a la cueva y la despedida grabada para Teles.",
+    "lectura": [
+      "Solo entonces…",
+      "Huyó.",
+      "Nadó hasta aquí con una caja entre los brazos, avanzando a toda velocidad. Entró en la cueva como una ráfaga. Yo estaba despierto.",
+      "La vi pasar.",
+      "—¿A dónde vas? —alcancé a decir.",
+      "No se detuvo.",
+      "Solo me miró un instante.",
+      "Ese fue el último.",
+      "Descendió por el pasaje secreto del subsuelo y te dejó allí, protegida. Colocó la caja a tu lado. Dentro, las esferas. Sobre cada una, una nota con nuestros nombres.",
+      "Te besó la mejilla.",
+      "Luego tomó tu esfera. La apoyó en su frente… y te grabó el recuerdo.",
+      "Después llegó mi turno.",
+      "Y como si me estuviera mirando dijo:",
+      "—No le cuentes esto. Solo dile que su madre debe estar donde pertenece… por su bien.",
+      "Apoyó la esfera sobre su frente.",
+      "Y el recuerdo terminó."
+    ],
+    "grupo": "Línea principal"
+  },
+  {
     "id": "gabriel-puertas-cielo",
     "tipo": "escena",
     "clip": 10,
