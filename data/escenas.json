@@ -934,8 +934,8 @@
     "capitulo": "Capítulo V",
     "descripcion": "Gabriel intenta entrar al Cielo; Rafael no puede abrir, Miguel aparece y corta su flujo divino.",
     "texto": "Gabriel intenta entrar al Cielo; Rafael no puede abrir, Miguel aparece y corta su flujo divino.",
-    "video": "https://www.youtube.com/watch?v=nT_TA1fgSR0",
-    "thumbnail": "https://i.ytimg.com/vi/nT_TA1fgSR0/maxresdefault.jpg",
+    "video": "https://www.youtube.com/shorts/bSYf71_V3Jg",
+    "thumbnail": "https://i.ytimg.com/vi/bSYf71_V3Jg/hqdefault.jpg",
     "personajes": [
       "Gabriel",
       "Rafael",
@@ -1223,6 +1223,34 @@
       "Entonces la nota de Atenea se volvió más que advertencia: era una alternativa. Gabriel tomó el escudo y Haniel lo embistió con su lanza. El impacto confirmó lo imposible: el escudo resistía.",
       "Luego Gabriel blandió la espada contra una roca enorme que emergía del mar. La piedra se quebró bajo el golpe. Haniel asintió. Ya estaban listos.",
       "Gabriel silbó hacia el océano. El delfín apareció. Ambos entraron al agua, sabiendo que la batalla acababa de cambiar de escenario."
+    ],
+    "grupo": "Línea principal"
+  },
+  {
+    "id": "grito-almas-oceano",
+    "tipo": "escena",
+    "clip": 29,
+    "storyOrder": 22.1,
+    "videoOrder": 29,
+    "titulo": "Subcapítulo 7.7 — El grito de las almas",
+    "capitulo": "Capítulo VII",
+    "descripcion": "Guiados por el delfín, Gabriel y Haniel se internan en el océano, enfrentan la primera horda y sobreviven al tornado de fuego antes de la irrupción de Hades.",
+    "texto": "Guiados por el delfín, Gabriel y Haniel se internan en el océano, enfrentan la primera horda y sobreviven al tornado de fuego antes de la irrupción de Hades.",
+    "video": "https://www.youtube.com/shorts/qc4FoQpNHRw",
+    "thumbnail": "https://i.ytimg.com/vi/qc4FoQpNHRw/hqdefault.jpg",
+    "personajes": [
+      "Gabriel",
+      "Haniel",
+      "Tritones"
+    ],
+    "rangoLibro": "Desde el ingreso de Gabriel y Haniel al océano hasta el vórtice de fuego, antes de la aparición de Hades.",
+    "fragmentoBase": "El clip muestra el primer choque real bajo las aguas: la horda del océano, el golpe sobre el escudo, la caída momentánea de Haniel y la respuesta de Gabriel con fuego imposible en medio del mar.",
+    "lectura": [
+      "El delfín abrió el camino hacia las profundidades y los dos ángeles lo siguieron sin volver la vista atrás.",
+      "Entonces la amenaza apareció: una primera horda del océano descendió sobre ellos con armas y cuerpos nacidos para la guerra bajo las aguas.",
+      "La lanza encontró el escudo. Haniel resistió, cayó de rodillas por un instante y comprendió que aquello no se detendría.",
+      "Gabriel respondió con la espada de Ares. Allí donde el mar no debía arder, el fuego giró como un tornado y abrió un respiro imposible entre las profundidades.",
+      "Cuando los dos hermanos volvieron a quedar uno junto al otro, una nueva oleada ya se aproximaba desde la oscuridad."
     ],
     "grupo": "Línea principal"
   }

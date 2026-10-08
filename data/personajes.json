@@ -22,7 +22,8 @@
       13,
       14,
       21,
-      22
+      22,
+      29
     ]
   },
   {
@@ -76,7 +77,8 @@
       8,
       12,
       14,
-      22
+      22,
+      29
     ]
   },
   {
@@ -283,12 +285,19 @@
     "nombre": "Tritones",
     "slug": "tritones",
     "categoria": "Océano",
-    "tipo": "?",
-    "estado": "?",
-    "bloqueado": true,
-    "descripcion": "?",
-    "detalle": "?",
-    "primeraAparicion": "?",
-    "clips": []
+    "tipo": "Guardianes del reino de Poseidón",
+    "estado": "Revelados",
+    "bloqueado": false,
+    "descripcion": "Guardianes anfibios del reino de Poseidón, disciplinados y feroces en la defensa del océano.",
+    "detalle": "Los tritones patrullan los palacios, grietas y fronteras del mar. Son soldados del reino oceánico, capaces de perseguir sin descanso a quien desafíe la voluntad de Poseidón. Su presencia marca el paso de la intriga a la guerra abierta bajo las aguas.",
+    "primeraAparicion": "Capítulo III · El reclamo del mar",
+    "clips": [
+      9,
+      26,
+      27,
+      29
+    ],
+    "oculto": false,
+    "imagen": "assets/personajes/tritones.jpg"
   }
 ]
